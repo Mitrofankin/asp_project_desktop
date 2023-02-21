@@ -25,6 +25,7 @@ a{
     margin: 0 auto;
 }
 
+
 body{
     font-family: 'Inter', sans-serif;
     color: #38424B;
@@ -55,7 +56,7 @@ body{
 
 }
 
-.box{
+/* .box{
     box-sizing: border-box;
     position: absolute;
     width: 416px;
@@ -90,60 +91,15 @@ body{
     padding: 0 50px 50px 50px;
     font-weight: 700;
     color: #084C61;
-}
+} */
 
-.promo{
-    display: flex;
-    min-width: 100vh;
-}
-
-.title__left{
-    max-width: 100%;
-    padding: 50px 50px 50px 0;
-}
-
-.title__right{
-    max-width: 100%;
-    padding: 50px 0px 50px 50px
-}
-
-.title__text{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 67px;
-    letter-spacing: 0.07em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    padding: 130px 83px 0px 50px;
-
-}
-
-.main__text__right{
-    color: #BECBD6;
-    padding: 30px 312px 252px 50px;
-}
-
-.main__text__left{
-    color: #BECBD6;
-    padding: 227px 187px 228px 300px;
-}
-
-.main::before{
+/* .main::before{
     content: '';
     border-bottom: 1px solid #2AA3D6;  
     position: absolute;
     width: 100%;
-}
+} */
 
-.stats::after{
-    content: '';
-    border-bottom: 1px solid #2AA3D6;  
-    position: absolute;
-    width: 100%;
-    top: 1563px;
-}
 
 .stats{
     display: flex;
