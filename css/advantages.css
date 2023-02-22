@@ -1,0 +1,64 @@
+.advantages{
+    background: #E7EDF2;
+    border-radius: 30px;
+    padding: 100px 0;
+}
+
+.title__advantages{
+    padding: 0px 300px;
+    /* flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 2; */
+}
+
+.benefis__top{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    /* align-items: flex-start; */
+    padding-bottom: 20px;
+    padding-top: 50px;
+    gap: 20px;
+}
+
+.benefits__bot{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    /* align-items: flex-start; */
+    /* padding: 0px 300px; */
+    gap: 20px;
+}
+
+.benefit{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+    isolation: isolate;
+    width: 315px;
+    height: 315px;
+    border: 1px solid #BECBD6;
+}
+
+.svg__benefit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    
+    width: 275px;
+    height: 172px;
+}
+
+.benefit__text{
+    display: flex;
+    text-align: center;
+}

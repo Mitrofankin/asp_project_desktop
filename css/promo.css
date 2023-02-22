@@ -8,15 +8,20 @@
 
 .promo__inner__left{
     width: 50%;
+    max-height: 1500px;
     border-right: 1px solid #2AA3D6;
-    display: flex;
-    flex-direction:column
+
 }
 
 .promo__inner__right{
     width: 50%;
+    max-height: 1500px;
+}
 
-
+.text__benefits{
+    position: relative;
+    bottom: 224px;
+    left: -127px;
 }
 
 .title__text{
@@ -38,9 +43,13 @@
 }
 
 .main__text__left{
-    width: 473px;
-    height: 145px;
-    margin-left: 300px;
+    max-width: 570px;
+    padding-right: 50px;
+    padding-top: 227px;
+
+
+    margin: 0 0 0 auto;
+
 }
 
 
