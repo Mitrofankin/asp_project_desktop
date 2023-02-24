@@ -2,12 +2,13 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ASP</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Jost&family=Raleway:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
@@ -141,7 +142,7 @@
             </div>
         </section>
 
-        <section class="gallery big-container" >
+        <section class="big-container gallery" >
             <div class="container examples">
                 <h4 class="examples__title">Примеры наших работ</h4>
                 <div class="types">
@@ -200,7 +201,7 @@
             </div>
         </section>
 
-        <section class=" big-container howWeWork" >
+        <section class="big-container howWeWork" >
             <div class="container">
                 <h3 class="howWeWork__title">Как мы работаем</h3>
                 <div class="body__howWeWork">
@@ -225,10 +226,132 @@
 
         <section class="container feedbacks">
             <h4 class="feedbacks__title">Отзывы наших клиентов</h4>
-            <div class="feedbacks__body">
-                
+            <div class="slider-container feedbacks__slider">
+                <div class="blog__button swiper-button-left">
+                    <img src="/images/arrow-left.svg" alt="">
+                </div>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slider__border">
+                        <p class="slider__text" >От лица управляющей компании ООО «Медисил» разрешите Вам выразить благодарность за проведенные работы по установке балконных ограждений.</p>
+                        <p class="slider__text--name" >ООО «Медисил» </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="slider__text" >Ребята сделали работу быстро и качественно. Еще понравилось, что всегда приезжали четко к назначенному времени и убирали мусор за собой.</p>
+                        <p class="slider__text--name" >Антонов И.Н.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="slider__text" >От лица управляющей компании ООО «Медисил» разрешите Вам выразить благодарность за проведенные работы по установке балконных ограждений.</p>
+                        <p class="slider__text--name" >ООО «Медисил» </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="slider__text" >Ребята сделали работу быстро и качественно. Еще понравилось, что всегда приезжали четко к назначенному времени и убирали мусор за собой.</p>
+                        <p class="slider__text--name" >Антонов И.Н.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="blog__button swiper-button-right">
+                <img src="/images/arrow-right.svg" alt="">
             </div>
         </section>
     </main>
+
+    <footer class="footer">
+        <section class="container requisites">
+            <h4 class="requisites__titte">Реквизиты
+            </h4>
+
+            <table class="requisites__table">
+                    <tr>
+                        <td class="td__size">Наименование</td>
+                        <th class="td__size">индивидуальный предприниматель Попов станислав сергеевич</th>
+                    </tr>
+                    <tr>
+                        <th class="td__size">Юридический адрес</th>
+                        <th class="td__size">197341, город Санкт-Петербург, пр‑кт Коломяжский, д. 26, кв. 280</th>
+                    </tr>
+                    <tr>
+                        <td class="td__size">ИНН</td>
+                        <td class="td__size">781457412020</td>
+                    </tr>
+                    <tr>
+                        <td class="td__size">Расчетный счет</td>
+                        <td class="td__size">40802810700003341496</td>
+                    </tr>
+                    <tr>
+                        <td class="td__size">ОГРН</td>
+                        <td class="td__size">322784700166013</td>
+                    </tr>
+                    <tr>
+                        <td class="td__size">банк</td>
+                        <td class="td__size">АО «Тинькофф Банк»</td>
+                    </tr>
+                    <tr>
+                        <td class="td__size">БИК</td>
+                        <td class="td__size">044525974</td>
+                    </tr>
+                    <tr>
+                        <td class="td__size">ИНН банка</td>
+                        <td class="td__size">7710140679</td>
+                    </tr>
+                    <tr>
+                        <td class="td__size">Корр. счет</td>
+                        <td class="td__size">30101810145250000974</td>
+                    </tr>
+            </table>
+        </section>
+
+        <section class="container footer__bot" >
+            <div class="footer__logo">
+                <img src="/images/footer-logo.svg" alt="">
+            </div>
+            <div class="footer__left">
+                <div class="footer__left--menu">
+                    <div class="title__footer">
+                        <h4 class="title__footer--h4">Сайт</h4>
+                    </div>
+                    <div class="footer__menu--l">
+                        <a href="#" class="">О нас</a>
+                        <a href="#" class="">Виды работ</a>
+                        <a href="#" class="">Галерея</a>
+                        <a href="#" class="">Этапы работ</a>
+                    </div>
+                </div>
+                <div class="footer__left--social">
+                    <img src="/images/telegram.svg" alt="">
+                    <img src="/images/whatsapp.svg" alt="">
+                    <img src="/images/telefon.svg" alt="">
+                </div>
+            </div>
+            <div class="footer__right">
+                <h5 class="title__menu--r">Контакты</h5>
+                <div class="footer__menu--r">
+                    <div class="contact__icon">
+                        <img class="footer__icon" src="/images/contact-icon.svg" alt="">
+                        <a href="tel:+79095855652">+(7) 909 585 56 52</a>
+                    </div>
+                    <div class="contact-icon">
+                        <img class="footer__icon" src="/images/mail-icon.svg" alt="">
+                        <a href="#" class="">Stanislavqo@list.ru</a>
+                    </div>
+                    <div class="contact-icon">
+                        <img class="footer__icon" src="/images/clock-icon.svg" alt="">
+                        <a href="#" class="">пн-сб 09.00-20.00</a>
+                    </div>
+                </div>
+                <div class="risurz">
+                    <p>Политика конфиденциальности</p>
+                    <p>© risurz</p>
+                </div>
+            </div>
+
+        </section>
+ 
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js">
+    </script>
+    <script src="js/main.js"></script>
 </body>
 </html>

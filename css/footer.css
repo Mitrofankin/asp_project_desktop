@@ -1,0 +1,42 @@
+.footer{
+    background-image: url(/images/bg-footer.png);
+    background-position: bottom;
+    background-position: 0 0;
+    margin-top: 208px;
+}
+
+.requisites{
+
+}
+
+.requisites__titte{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding-bottom: 80px;
+}
+
+.requisites__table{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.tr{
+
+}
+
+.td__size{
+
+    padding:23px 60px 23px 0 ;
+}

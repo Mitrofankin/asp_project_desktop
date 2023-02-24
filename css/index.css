@@ -1,9 +1,10 @@
-/* @import 'css/reset.css';
-@import 'css/style.css'; */
 @import 'promo.css';
 @import 'header.css';
 @import 'workGalery.css';
 @import 'advantages.css';
 @import 'gallery.css';
 @import 'offer.css';
-@import '.css';
+@import 'feedbacks.css';
+@import 'footer.css';
+@import 'feedbacks.css';
+@import 'footer__bot.css';
