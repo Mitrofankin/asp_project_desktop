@@ -1,0 +1,57 @@
+.howWeWork{
+    display: grid;
+    padding-top: 200px;
+    position: relative;
+}
+
+.img__howWeWork{
+    position: absolute;
+    top: 275px;
+    right: 15%;
+}
+
+.howWeWork__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    padding-left: 300px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #2AA3D6;
+}
+
+.body__howWeWork{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+    letter-spacing: 0.02em;
+    color: #94A3B0;
+}
+
+.stagesNew{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 39px 224px 59px 300px;
+    margin-top: 47px;
+    gap: 50px;
+    border-bottom: 1px solid #2AA3D6;
+    border-right: 150%;
+}
+
+.stagesNew__nember{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;
+    align-items: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #94A3B0;
+}

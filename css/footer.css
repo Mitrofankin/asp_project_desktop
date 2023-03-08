@@ -5,10 +5,6 @@
     margin-top: 208px;
 }
 
-.requisites{
-
-}
-
 .requisites__titte{
     font-family: 'Raleway';
     font-style: normal;
@@ -30,10 +26,6 @@
     text-transform: uppercase;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #FFFFFF;
-}
-
-.tr{
-
 }
 
 .td__size{

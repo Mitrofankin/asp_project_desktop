@@ -1,3 +1,58 @@
 .offer{
     background-image: url(/images/offer_bg.png);
 }
+
+.offer__title{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.offer__title--right{
+    max-width: 600px;
+    padding: 70px 0 70px 50px;
+}
+
+.offer__tilte--text{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #10131B;
+}
+
+.offer__text{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: #697987;
+    padding: 30px 0 50px 0;
+}
+
+.mail__title{
+    padding: 50px 0 10px 0;
+}
+
+.mail__text{
+    padding-bottom: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: #697987;
+}
+
+.agree{
+    display: flex;
+}
+
+.agree__text{
+    padding-left: 10px;
+}

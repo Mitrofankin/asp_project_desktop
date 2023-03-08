@@ -7,7 +7,11 @@
     font-size: 18px;
     line-height: 20px;
     color: #BECBD6;
+    border-top: 1px solid #2AA3D6;
+    margin-top: 200px;
 }
+
+
 
 .title__footer--h4{
     padding: 73px 382px 30px 0;
@@ -23,15 +27,18 @@
  
 .footer__logo{
     padding: 177px 166px 177px 0px;
+    border-right: 1px solid #2AA3D6;
 }
   
 .footer__left{
-    max-width: 473px;
-    max-height: 434px;
+    /* max-width: 473px;
+    max-height: 434px; */
+    border-right: 1px solid #2AA3D6;
 }
 
 .footer__left--menu{
     padding: 30px;
+    margin-bottom: 73px;
 }
 
 .footer__left--social{
@@ -40,6 +47,7 @@
     align-items: center;
     padding: 30px;
     gap: 50px;
+    border-top: 1px solid #2AA3D6;
 }
 
 .footer__menu--l{
@@ -54,10 +62,18 @@
 
 }
 
-.footer__right{
+/* .footer__right{
     padding-left: 30px;
 }
-  
+   */
+.footer__right-top{
+    max-width: 792px;
+    max-height: 334px;
+    padding-bottom: 113px;
+    padding-left: 30px;
+    border-bottom: 1px solid #2AA3D6;
+    width: 100%;
+}
 
 .title__menu--r{
     padding-top: 95px;
@@ -73,6 +89,8 @@
     max-width: 425px;
     max-height: 88px ;
     gap: 30px;
+
+    
 }
 
 .contact-icon{
@@ -87,9 +105,14 @@
 
 .risurz{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px 300px 10px 30px;
-    gap: 10px;
-
+    gap: 80px;
+    padding: 40px 200px 40px 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #BECBD6;
+    opacity: 0.6;
 }
+
