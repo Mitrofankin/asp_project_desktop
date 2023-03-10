@@ -8,18 +8,48 @@ display: flex;
 
 .example1{
     max-width: 100%;
-    padding: 50px 50px 50px 0;
-    border-bottom: 1px solid #2AA3D6; 
+    padding: 50px 50px 0px 0;
+    border-bottom: 1px solid #2AA3D6;
+
 }
+
+.card{
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover .card__content{
+    opacity: 1;
+    transition:1s ease-in-out; 
+}
+.card:hover img{
+    transition:0.5s ease-in-out; 
+    transform: translate(0,-10%);
+}
+
+.card__content{
+    opacity: 0;
+    position: relative;
+    bottom: 50px;
+}
+
+/* .example1:hover img{
+    transition:1.5s ease-in-out; 
+    transform: scale(1.1);
+}
+
+.card{
+    overflow: hidden;
+} */
 
 .example2{
     max-width: 100%;
-    padding: 50px 50px 50px 0;
+    padding: 50px 50px 0px 0;
 }
 
 .example3{
     max-width: 100%;
-    padding: 0 50px 50px 50px;
+    padding: 0 50px 0px 50px;
     border-bottom: 1px solid #2AA3D6; 
 }
 
@@ -48,7 +78,6 @@ display: flex;
     letter-spacing: 0.02em;
     padding-top: 150px;
     padding-left: 50px;
-
 } 
 
 .works__example--text{
@@ -62,5 +91,25 @@ display: flex;
     padding-left: 50px;
     padding-top: 50px;
     max-width: 610px;
+}
 
+.hover__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+     letter-spacing: 0.07em;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.hover__text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #BECBD6;
 }

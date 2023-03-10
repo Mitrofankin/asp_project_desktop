@@ -1,7 +1,7 @@
 .footer{
     background-image: url(/images/bg-footer.png);
-    background-position: bottom;
-    background-position: 0 0;
+    background-position-x: 700px;
+    background-repeat:no-repeat;
     margin-top: 208px;
 }
 
