@@ -33,17 +33,20 @@
 }
 
 .benefit{
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    /* justify-content: center; */
+    /* align-items: flex-start; */
     padding: 20px;
-    gap: 20px;
-    isolation: isolate;
+    /* gap: 20px; */
+    /* isolation: isolate; */
     width: 315px;
     height: 315px;
     border: 1px solid #BECBD6;
+    position: relative;
+    overflow: hidden;
+
 }
 
 .svg__benefit{
@@ -52,13 +55,70 @@
     justify-content: center;
     align-items: center;
     padding: 0px;
-    gap: 20px;
-    
     width: 275px;
     height: 172px;
+
+    /* -webkit-transform: all .5s;
+    transform: all .10s; */
+
 }
 
 .benefit__text{
     display: flex;
     text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #10131B;
+    position: absolute;
+    top: 60%;
+    /* -webkit-transform: all .5s;
+    transform: all .5s;
+     */
+}
+
+.benefit__hover{
+    overflow: hidden;
+    opacity: 0;
+    -webkit-transform: all .5s;
+    /* -o-transition: all .5s; */
+    transform: all .5s;
+    top: 37%;
+}
+
+.benefit__content{
+    -webkit-transform: all .5s;
+    transform: all .5s;
+}
+
+/* .benefit:hover .benefit__content{
+    transition: 0.5s ease-in-out;
+
+    top: 110px;
+
+} */
+
+.benefit:hover .benefit__hover{
+    transition: 0.6s ease-in-out;
+    opacity: 1;
+    overflow:visible;
+    position: absolute;
+    top: 120px;
+}
+
+.benefit:hover .svg__benefit{
+    position: absolute;
+    top: -40px;
+
+    transition: 0.5s ease-in-out;
+    transform: scale(0.5);
+}
+
+
+.benefit:hover .benefit__text{
+    transition: 0.5s ease-in-out;
+    position: absolute;
+    top: 80px;
 }
