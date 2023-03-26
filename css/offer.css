@@ -56,3 +56,50 @@
 .agree__text{
     padding-left: 10px;
 }
+
+.input__block{
+    display: flex;
+    gap: 40px;
+}
+
+.input__block2{
+
+}
+
+.formAndBtn{
+    gap: 30px;
+}
+
+.text__input {
+    width: 280px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #BECBD6;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    align-items: center;
+    color: #697987;
+    margin-bottom: 30px;
+
+}
+
+.formAndBtn button{
+    width: 210px;
+    height: 40px;
+    border: none;
+    /* border-radius: 5px; */
+    background: #10131B;
+    color: #E7EDF2;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    align-items: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+

@@ -43,7 +43,7 @@
     left: 364px;
 } */
 
-.swiper::before{
+/* .swiper::before{
     content: '';
     border-right: 1px solid #2AA3D6;
     width: 130px;
@@ -51,7 +51,7 @@
     position: absolute;
     top: -53px;
     left: 400px;
-}
+} */
 
 .slider__text{
     padding: 30px 50px 0px 50px;

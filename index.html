@@ -80,7 +80,7 @@
             </div>
             <div class="stat__work3">
                 <img src="/images/icon-3.svg" alt="">
-                <h2 class="counter" data-target="350" class="stat__title">350</h2>
+                <h2 class="counter1" data-target="350" class="stat__title">350</h2>
                 <p class="stat__text">Выполненых проектов</p>
             </div>
         </section>
@@ -126,45 +126,61 @@
             <h3 class="title__advantages">Комфортные условия для сотрудничества</h3>
             <div class="benefis__top">
                 <div class="benefit">
-                    <img class="svg__benefit" src="/images/ben1.svg" alt="">
-                    <p class="benefit__text">Реализация проекта под ключ</p>
+                    <div class="benefit__small">
+                        <img class="svg__benefit" src="/images/ben1.svg" alt="">
+                        <p class="benefit__text">Реализация проекта под ключ</p>
+                    </div>
                     <span class="benefit__hover">Выполним замер и при необходимости разработаем проект, доставим и выполним монтаж. И не забудем прибраться за собой. </span>
                 </div>
                 <div class="benefit">
-                    <img class="svg__benefit" src="/images/ben2.svg" alt="">
-                    <p class="benefit__text">Выгодные цены</p>
+                    <div class="benefit__small">
+                        <img class="svg__benefit" src="/images/ben2.svg" alt="">
+                        <p class="benefit__text">Выгодные цены</p>
+                    </div>
                     <span class="benefit__hover">У нас собственное производство и весь цикл работ выполняет наша команда, за счет чего мы снизили расходы на изготовление и монтаж. </span>
                 </div>
                 <div class="benefit">
-                    <img class="svg__benefit" src="/images/ben3.svg" alt="">
-                    <p class="benefit__text">Разработка проектов</p>                  
+                    <div class="benefit__small">
+                        <img class="svg__benefit" src="/images/ben3.svg" alt="">
+                        <p class="benefit__text">Разработка проектов</p>                  
+                    </div>
                     <span class="benefit__hover">Если у вас нет проекта, то мы сами разработаем проект и визуализацию на основе замеров, фото или описания. </span>
                 </div>
                 <div class="benefit">
-                    <img class="svg__benefit" src="/images/ben4.svg" alt="">
-                    <p class="benefit__text">Качество по ГОСТам и СНиПам</p>
+                    <div class="benefit__small">
+                        <img class="svg__benefit" src="/images/ben4.svg" alt="">
+                        <p class="benefit__text">Качество по ГОСТам и СНиПам</p>
+                    </div>
                     <span class="benefit__hover">Изготовление и монтаж в соответствии с действующими стандартами и требованиями безопасности. </span>
                 </div>
             </div>
             <div class="benefits__bot">
                 <div class="benefit">
-                    <img class="svg__benefit" src="/images/ben5.svg" alt="">
-                    <p class="benefit__text">Гарантия качества</p>
+                    <div class="benefit__small">
+                        <img class="svg__benefit" src="/images/ben5.svg" alt="">
+                        <p class="benefit__text">Гарантия качества</p>
+                    </div>
                     <span class="benefit__hover">Наше оборудование позволяет комбинировать материалы и изготавливать эксклюзивные предметы интерьера. </span>
                 </div>
                 <div class="benefit">
-                    <img class="svg__benefit" src="/images/ben6.svg" alt="">
-                    <p class="benefit__text">Работа с металлом, стеклом и деревом</p>
+                    <div class="benefit__small">
+                        <img class="svg__benefit" src="/images/ben6.svg" alt="">
+                        <p class="benefit__text">Работа с металлом, стеклом и деревом</p>
+                    </div>
                     <span class="benefit__hover">Даем гарантию от двух лет на все изготовленные нами изделия и монтажные работы. </span>
                 </div>
                 <div class="benefit">
-                    <img class="svg__benefit" src="/images/ben7.svg" alt="">
-                    <p class="benefit__text">Индивидуальный подход</p>
+                    <div class="benefit__small">
+                        <img class="svg__benefit" src="/images/ben7.svg" alt="">
+                        <p class="benefit__text">Индивидуальный подход</p>
+                    </div>
                     <span class="benefit__hover">На все работы мы оформляем договор, в котором прописываем сроки и четко их придерживаемся. </span>
                 </div>
                 <div class="benefit">
-                    <img class="svg__benefit" src="/images/ben8.svg" alt="">
-                    <p class="benefit__text">Выполнение работ точно в срок</p>
+                    <div class="benefit__small">
+                        <img class="svg__benefit" src="/images/ben8.svg" alt="">
+                        <p class="benefit__text">Выполнение работ точно в срок</p>
+                    </div>
                     <span class="benefit__hover">Мы сотрудничаем как с организациями, так и с индивидуальными заказчиками. </span>
                 </div>
             </div>
@@ -216,10 +232,23 @@
                     </h5>
                     <p class="offer__text">Оставьте заявку, мы перезвоним и ответим на любые вопросы, поможем оптимизировать стоимость, предложим выгодный вариант.</p>
                     <div class="formAndBtn">
-                        <input type="button" value="ваше имя">
-                        <input type="number" name="" id="">
-                        <input type="text" name="" id="">
-                        <input type="button" value="Оставить заявку">
+                        <form action="#">
+                            <div class="input__block" >
+                                <input class="text__input" type="text" placeholder="Ваше имя">
+                                <input class="text__input" type="text" placeholder="Телефон">
+                            </div>
+                            <div class="input__block2">
+                                <input class="text__input" type="text"  placeholder="Коментарий">
+                                <div class="input__wrapper">
+                                    <input name="file" type="file" id="input__file" class="input input__file" multiple>
+                                    <label for="input__file" class="input__file-button">
+                                       <span class="input__file-icon-wrapper"><img class="input__file-icon" src="/images/uploadBtn.svg" alt="Выбрать файл" width="25"></span>
+                                       <span class="input__file-button-text">Выберите файл</span>
+                                    </label>
+                                 </div>
+                            </div>
+                            <button type="submit">Оставить заявку</button>
+                        </form>
                     </div>
                     <div class="mail">
                         <h5 class="mail__title">У вас уже есть проект или смета?</h5>
@@ -277,7 +306,7 @@
                 </div>
             <div class="swiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide slider__border">
+                    <div class="swiper-slide">
                         <p class="slider__text" >От лица управляющей компании ООО «Медисил» разрешите Вам выразить благодарность за проведенные работы по установке балконных ограждений.</p>
                         <p class="slider__text--name" >ООО «Медисил» </p>
                     </div>
