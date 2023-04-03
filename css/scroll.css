@@ -1,0 +1,28 @@
+body {
+    background-image: url(construct-bg.jpg);
+    background-position: left top;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    }
+    /*—Back to Top ————*/
+    .scroll-top {
+    background:#2896d6;
+    box-shadow:0 0 2px rgba(0,0,0,0.4);
+    bottom:20px;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    border-radius: 1px;
+    right: 20px;
+    text-align: center;
+    overflow: hidden;
+    z-index: 9999;
+    opacity: 0.5;
+    }
+    .scroll-top i {
+    font-size: 14px;
+    line-height: 40px;
+    color:#fff!important;
+    }
+    

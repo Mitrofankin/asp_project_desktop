@@ -8,10 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Jost&family=Raleway:wght@500;600;700&display=swap" rel="stylesheet">
+    <a href="/#" class="scroll-top" style="display: none;"><i class="fa fa-chevron-up"></i></a>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </head>
 <body>
     <header class="header">
@@ -68,19 +72,19 @@
         <section class="container stats">
             <div class="stat__work1">
                 <img src="/images/icon-1.svg" alt="">
-                <h2 class="counter" data-target="7" class="stat__title">7 
+                <h2 id="out-1" class="out-num">7 
                     <span class="stat__title-s">лет</span></h2>
                 <p class="stat__text">Опыта работы</p>
             </div>
             <div class="stat__work2">
                 <img src="/images/icon-2.svg" alt="">
-                <h2 class="counter" data-target="7000" class="stat__title">7000</h2>
+                <h2 id="out-2" class="out-num">7000</h2>
                     <span class="stat__title-s">м</span>
                     <p class="stat__text">Смонтированных ограждений</p>
             </div>
             <div class="stat__work3">
                 <img src="/images/icon-3.svg" alt="">
-                <h2 class="counter1" data-target="350" class="stat__title">350</h2>
+                <h2 id="out-3" class="out-num">350</h2>
                 <p class="stat__text">Выполненых проектов</p>
             </div>
         </section>
@@ -430,5 +434,7 @@
     </script>
     <script src="js/main.js"></script>
     <script src="js/numcount.js"></script>
+    <script src="js/scroll.js"></script>
+
 </body>
 </html>
