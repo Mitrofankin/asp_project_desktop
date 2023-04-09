@@ -33,26 +33,6 @@
     color: #E7EDF2;
 }
 
-/* .slider__border::before{
-    content: '';
-    border-right: 1px solid #2AA3D6;
-    width: 130px;
-    height: 255px;
-    position: absolute;
-    top: -53px;
-    left: 364px;
-} */
-
-/* .swiper::before{
-    content: '';
-    border-right: 1px solid #2AA3D6;
-    width: 130px;
-    height: 255px;
-    position: absolute;
-    top: -53px;
-    left: 400px;
-} */
-
 .slider__text{
     padding: 30px 50px 0px 50px;
 }
@@ -72,7 +52,6 @@
     width: 60px;
     height: 60px;
     margin: auto 0;
-    /* transform: translateY(50px); */
 }
 
 .feedbacks__slider{

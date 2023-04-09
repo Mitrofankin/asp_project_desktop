@@ -1,5 +1,5 @@
 .offer{
-    background-image: url(/images/offer_bg.png);
+    background-image: url(../asp_project_desktop/images/offer_bg.png);
 }
 
 .offer__title{
@@ -62,10 +62,6 @@
     gap: 40px;
 }
 
-.input__block2{
-
-}
-
 .formAndBtn{
     gap: 30px;
 }
@@ -83,14 +79,12 @@
     align-items: center;
     color: #697987;
     margin-bottom: 30px;
-
 }
 
 .formAndBtn button{
     width: 210px;
     height: 40px;
     border: none;
-    /* border-radius: 5px; */
     background: #10131B;
     color: #E7EDF2;
     font-family: 'Raleway';

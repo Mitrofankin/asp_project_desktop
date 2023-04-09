@@ -31,8 +31,6 @@
 }
   
 .footer__left{
-    /* max-width: 473px;
-    max-height: 434px; */
     border-right: 1px solid #2AA3D6;
 }
 
@@ -62,10 +60,6 @@
 
 }
 
-/* .footer__right{
-    padding-left: 30px;
-}
-   */
 .footer__right-top{
     max-width: 792px;
     max-height: 334px;
