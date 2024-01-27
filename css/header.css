@@ -3,14 +3,6 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000; /* Устанавливаем z-index, чтобы элемент был поверх других элементов */
+    z-index: 1000;
     background-color: #111A20;
-}.nav{
-    position: fixed;
-    
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000; /* Устанавливаем z-index, чтобы элемент был поверх других элементов */
-    background-color: #111A20; 
 }
